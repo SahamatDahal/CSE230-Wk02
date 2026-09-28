@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- These settings help the page display on different screens and describe it to search engines. -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Sahamat Dahal's personal portfolio, technical skills, projects, and contact form.">
   <title>Sahamat Dahal | Personal Portfolio</title>
 </head>
 <body>
+  <!-- A short introduction welcomes visitors at the top of the page. -->
   <header id="top">
     <h1>Sahamat Dahal</h1>
     <p>Creative Technologist and Graphic Designer</p>
+    <!-- These links take visitors to each section on this page. -->
     <nav aria-label="Primary navigation">
       <ul>
         <li><a href="#about">About Me</a></li>
@@ -21,9 +24,11 @@
   </header>
 
   <main>
+    <!-- This section shares a little about me and the work I enjoy. -->
     <section id="about" aria-labelledby="about-heading">
       <h2 id="about-heading">About Me</h2>
 
+      <!-- The photo has a text description and a caption underneath. -->
       <figure>
         <img src="assets/profile.webp" alt="Portrait of Sahamat Dahal">
         <figcaption>Sahamat Dahal, Kathmandu, Nepal</figcaption>
@@ -32,6 +37,7 @@
       <p>I enjoy combining design and technology to create useful digital experiences. My interests include branding, web development, and learning how computer systems work.</p>
     </section>
 
+    <!-- Each skill is followed by a short description of what I do or am learning. -->
     <section id="skills" aria-labelledby="skills-heading">
       <h2 id="skills-heading">Technical Skills</h2>
       <dl>
@@ -48,13 +54,14 @@
       </dl>
     </section>
 
+    <!-- Each project has its own introduction and a link to its code. -->
     <section id="projects" aria-labelledby="projects-heading">
       <h2 id="projects-heading">Projects</h2>
 
       <article aria-labelledby="studio-heading">
         <h3 id="studio-heading">Aayurti Creatives Website</h3>
         <p>A creative studio website that presents services, team information, and portfolio projects. The project brings together branding and web development to introduce the studio to prospective clients.</p>
-        <!-- Replace this placeholder with the actual public project repository URL. -->
+        <!-- This link can be updated when the final project repository is ready. -->
         <p><a href="https://github.com/SahamatDahal/website">View the Aayurti Creatives source repository</a></p>
       </article>
 
@@ -66,11 +73,14 @@
       </article>
     </section>
 
+    <!-- Visitors can try the contact form here and read how it works. -->
     <section id="contact" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Contact Me</h2>
       <p id="form-note">This is a demonstration form. All fields are required. Submitting checks your entries and reloads this page; it does not send a message.</p>
       
+      <!-- This practice form checks the entries and reloads the page without sending a message. -->
       <form action="#contact" method="get" aria-describedby="form-note">
+        <!-- Each label is connected to its field, and every field needs an entry. -->
         <p>
           <label for="contact-name">Name (required)</label>
           <input type="text" id="contact-name" name="name" autocomplete="name" required>
@@ -88,6 +98,7 @@
     </section>
   </main>
 
+  <!-- The footer shows the copyright notice and a link back to the top. -->
   <footer>
     <p><small>&copy; 2026 Sahamat Dahal. All rights reserved.</small></p>
     <p><a href="#top">Back to top</a></p>
